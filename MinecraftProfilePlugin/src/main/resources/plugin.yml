@@ -1,0 +1,21 @@
+name: ProfilePlugin
+version: 1.0
+main: com.example.profileplugin.ProfilePlugin
+api-version: 1.21
+depend: [LuckPerms, Vault]
+commands:
+  profile:
+    description: abrir
+    usage: /profile
+    permission: profileplugin.use
+  profilere:
+    description: Recargar
+    usage: /profilere
+    permission: profileplugin.reload
+permissions:
+  profileplugin.use:
+    description: quien puede usar
+    default: true
+  profileplugin.reload:
+    description: quien puede recargar
+    default: op

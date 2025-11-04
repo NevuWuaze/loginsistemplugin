@@ -1,0 +1,40 @@
+login:
+  world: world
+  x: 0.5
+  y: 65
+  z: 0.5
+  use-schematic: false
+  schematic-path: login_map.schematic
+captcha:
+  timeout-seconds: 60
+menu:
+  size: 9
+  title-register: "§8Registro » Selecciona"
+  title-login: "§8Login » Selecciona"
+  heads:
+    register-owner: ""
+    premium-owner: ""
+  premium-player-names: []
+storage:
+  type: yaml
+  use-sqlite: true
+animation:
+  enabled: true
+  tick-interval: 6
+music:
+  enabled: true
+  sound: "MUSIC_DISC_BLOCKS"
+  volume: 1.0
+  pitch: 1.0
+  interval-ticks: 120
+  use-resourcepack: false
+  resourcepack-url: ""
+messages:
+  captcha-failed-kick: true
+  max-captcha-attempts: 3
+  captcha-lock-seconds: 60
+postlogin:
+  world: world
+  x: 100.5
+  y: 65
+  z: 100.5

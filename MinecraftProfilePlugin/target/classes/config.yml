@@ -1,0 +1,65 @@
+# Profile head configuration
+profile-head-slot: 8
+profile-head-material: PLAYER_HEAD
+
+# Menu configuration
+menu:
+  title: "&6Profile Menu"
+  player-head-slot: 4
+  player-head-name: "&6&l%player%"
+  rank-head-slot: 11
+  rank-head-material: DIAMOND
+  money-head-slot: 13
+  money-head-material: GOLD_INGOT
+  settings-head-slot: 15
+  settings-head-material: REDSTONE
+
+# Settings menu configuration
+settings:
+  title: "&cSettings"
+  visibility-slot: 2
+  visibility-material: ENDER_PEARL
+  fly-slot: 6
+  fly-material: FEATHER
+  back-slot: 8
+  back-material: ARROW
+
+# Captcha configuration
+captcha:
+  enabled: true
+  title: "&eCaptcha Verification"
+  length: 6
+  timeout: 30
+  success-material: LIME_STAINED_GLASS_PANE
+  fail-material: RED_STAINED_GLASS_PANE
+  background-material: GRAY_STAINED_GLASS_PANE
+
+# Features
+features:
+  welcome-message: true
+  captcha: true
+
+# Messages
+messages:
+  welcome: "&aWelcome to the server, &e%player%&a!"
+  visibility-enabled: "&aPlayer visibility enabled"
+  visibility-disabled: "&cPlayer visibility disabled"
+  fly-enabled: "&aFly mode enabled"
+  fly-disabled: "&cFly mode disabled"
+  no-permission: "&cYou don't have permission to use this feature"
+  captcha-success: "&aCaptcha verified successfully!"
+  captcha-fail: "&cCaptcha failed! Please try again."
+  captcha-timeout: "&cCaptcha timeout! Please rejoin the server."
+  reload-success: "&aConfiguration reloaded successfully!"
+
+# Permissions
+permissions:
+  use-profile: "profileplugin.use"
+  reload: "profileplugin.reload"
+
+# Sounds
+sounds:
+  menu-open: "UI_BUTTON_CLICK"
+  success: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  error: "ENTITY_VILLAGER_NO"
+  welcome: "ENTITY_PLAYER_LEVELUP"

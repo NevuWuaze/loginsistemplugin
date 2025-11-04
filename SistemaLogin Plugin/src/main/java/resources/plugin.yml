@@ -1,0 +1,17 @@
+name: sajuilogin
+main: com.oxh.login.Main
+version: 1.0.0
+api-version: 1.20
+commands:
+  captcha:
+    description: Responder captcha
+    usage: /captcha <resultado>
+  login:
+    description: Ejecuta login con contraseña
+    usage: /login <contraseña>
+  premiumconfirmar:
+    description: Confirma activación de premium
+    usage: /premiumconfirmar
+  register:
+    description: Registrar jugador
+    usage: /register <contraseña>
